@@ -10,7 +10,6 @@ if email ==True:
 else:
     print("El email no es correcto")
 
-#
 miEmail = input("Introdusca su email: ")
 contador = 0
 for i in miEmail:
@@ -25,3 +24,4 @@ else:
 #py 3 -> renge(n) crea un arrays de n elementos
 for i in range(5):
     print(i)
+    print(f" El valor de la variable {i}")
